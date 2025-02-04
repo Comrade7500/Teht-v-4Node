@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(74, 79, 111);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(43, 49, 77);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 600px;
+margin-left: 30%;
+margin-top: 12%;
+}
+h1 {
+    color: rgb(56, 112, 164);
+    text-align: center;
+
+    padding: 3%;
+    padding-top: 8%;
+}
+
+form {
+    margin-left: 20%;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+    background-color: rgb(43, 49, 77);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.1rem;
+    color: rgb(204, 204, 204);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: solid 2px rgb(16, 45, 74);
+    background-color: rgb(86, 86, 86);
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: rgb(56, 112, 164);
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 112, 164);
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(34, 71, 114);
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgb(204, 204, 204);
+    margin-bottom: 25px;
+}
+
+h1 #vastaus {
+    font-size: 2rem;
+    color: rgb(56, 112, 164);
+    
+}
